@@ -1,0 +1,9 @@
+{
+  "compatibilityMode": false,
+  "productionMode": false,
+  "npmFolder": "D:\\eclipse2021\\launchpool",
+  "generatedFolder": "D:\\eclipse2021\\launchpool\\target\\frontend",
+  "frontendFolder": "D:\\eclipse2021\\launchpool\\frontend",
+  "pnpm.enable": false,
+  "require.home.node": false
+}

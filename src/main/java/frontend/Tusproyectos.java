@@ -216,23 +216,11 @@ public class Tusproyectos extends VerticalLayout{
                 	
                 });
         
-        Button prueba = new Button("prueba",
-                event ->{ 
-                	
-                	
-                	
-                	try {
-						Notification.show( Integer.toString(proyectos.buscar("petunio").size()) );
-					} catch (IOException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
-                	
-                });
+
         
         VerticalLayout proyectoslayout=new VerticalLayout();
         
-        columnLayout.add(nombrein,descripcionin,recaudacionin,especialidadesin,button,prueba);
+        columnLayout.add(nombrein,descripcionin,recaudacionin,especialidadesin,button);
         
         proyectoslayout.add(Proyectosgrid,columnLayout);
         if((current)==null) {
